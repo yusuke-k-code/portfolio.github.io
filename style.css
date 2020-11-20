@@ -981,7 +981,6 @@ footer a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  transition: all .8s ease 0s;
 }
 
 .path__wrapper.reverse {
@@ -990,11 +989,6 @@ footer a {
   -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-}
-
-.path__wrapper:hover {
-  transform: scale(1.02);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
 }
 
 @media (max-width: 767px) {
