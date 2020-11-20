@@ -981,7 +981,7 @@ footer a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  translate: all .5s ease 0s;
+  transition: all .5s ease 0s;
 }
 
 .path__wrapper.reverse {
