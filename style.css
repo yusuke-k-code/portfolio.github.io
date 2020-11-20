@@ -909,23 +909,23 @@ footer a {
 }
 
 .skills__img.html__logo:before {
-  background: #fefefe url(../img/html5-brands.svg) no-repeat center/90% 90%;
+  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/html5-brands.svg) no-repeat center/90% 90%;
 }
 
 .skills__img.css__logo:before {
-  background: #fefefe url(../img/css3-alt-brands.svg) no-repeat center/90% 90%;
+  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/css3-alt-brands.svg) no-repeat center/90% 90%;
 }
 
 .skills__img.js__logo:before {
-  background: #fefefe url(../img/js-brands.svg) no-repeat center/90% 90%;
+  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/js-brands.svg) no-repeat center/90% 90%;
 }
 
 .skills__img.git__logo:before {
-  background: #fefefe url(../img/github-square-brands.svg) no-repeat center/90% 90%;
+  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/github-square-brands.svg) no-repeat center/90% 90%;
 }
 
 .skills__img.xd__logo:before {
-  background: #fefefe url(../img/adobe.svg) no-repeat center/90% 90%;
+  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/adobe.svg) no-repeat center/90% 90%;
 }
 
 .skills__text-wrapper {
