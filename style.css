@@ -827,6 +827,12 @@ footer a {
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 2px;
   padding: 16px;
+  transition: all .5s ease 0s;
+}
+
+.skills__item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
 }
 
 .skills__item:nth-child(3n) {
@@ -975,6 +981,7 @@ footer a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  translate: all .5s ease 0s;
 }
 
 .path__wrapper.reverse {
@@ -983,6 +990,11 @@ footer a {
   -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.path__wrapper:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
 }
 
 @media (max-width: 767px) {
