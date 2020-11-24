@@ -1254,6 +1254,7 @@ footer a {
             th, td {
                 border: 1px solid $black;
                 text-align: center;
+                min-width: 60px;
                 padding: 10px 0;
                 line-height: 3;
                 font-size: .7rem;
@@ -1271,10 +1272,10 @@ footer a {
         
             /* 1列目の幅を固定 */
             th:first-child {
-                min-width: 150px;
+                min-width: 140px;
         
                 @include mq(sp) {
-                    width: 140px;
+                    width: 130px;
                 }
             }
         
