@@ -99,6 +99,7 @@ footer a {
   font-weight: bold;
   text-align: center;
   margin: 0 auto 200px;
+  z-index: 5;
 }
 
 .subtitle::before, .subtitle::after {
@@ -119,13 +120,13 @@ footer a {
 
 .subtitle::after {
   /* ---------------------------------------
-        ※ content=""内のタイトル名は各セクションで記述
-        ※ 背景色の異なるセクションの文字色は各セクションで記述
-        --------------------------------------- */
+  ※ content=""内のタイトル名は各セクションで記述
+  ※ 背景色の異なるセクションの文字色は各セクションで記述
+  --------------------------------------- */
   top: -60px;
   font-size: 5rem;
   color: #d5d5d5;
-  z-index: -5;
+  z-index: -1;
 }
 
 @media (max-width: 767px) {
