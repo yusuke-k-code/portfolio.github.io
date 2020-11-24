@@ -1286,11 +1286,54 @@ footer a {
   bottom: 1vw;
   right: 1vw;
   font-size: 1.2rem;
+  -webkit-transition: all .7s ease 0s;
+  transition: all .7s ease 0s;
 }
 
 .study__wrapper .study__link-twitter:hover img, .study__wrapper .study__link-codepen:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+  left: 1.5vw;
+  top: 1.5vw;
+}
+
+@media (max-width: 1049px) {
+  .study__wrapper .study__link-twitter:hover img, .study__wrapper .study__link-codepen:hover img {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    left: 2.5vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .study__wrapper .study__link-twitter:hover img, .study__wrapper .study__link-codepen:hover img {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    left: 2.5vw;
+  }
+}
+
+.study__wrapper .study__link-twitter:hover p, .study__wrapper .study__link-codepen:hover p {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  right: 1.5vw;
+  bottom: 1.5vw;
+}
+
+@media (max-width: 1049px) {
+  .study__wrapper .study__link-twitter:hover p, .study__wrapper .study__link-codepen:hover p {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    right: 2.5vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .study__wrapper .study__link-twitter:hover p, .study__wrapper .study__link-codepen:hover p {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    right: 2.5vw;
+  }
 }
 
 .study__wrapper .study__link-twitter:active, .study__wrapper .study__link-codepen:active {
