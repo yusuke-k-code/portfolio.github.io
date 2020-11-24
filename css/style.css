@@ -1084,14 +1084,19 @@ footer a {
 }
 
 .path__text {
-  font-size: .8rem;
-  line-height: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   margin-top: 30px;
 }
 
 .path__text span {
   color: #DB2828;
   font-weight: 700;
+}
+
+.path__link {
+  display: inline-block;
+  padding-top: 20px;
 }
 
 /* ---------------------------------

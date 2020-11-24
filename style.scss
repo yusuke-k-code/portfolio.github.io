@@ -993,14 +993,19 @@ footer a {
     }
 
     &__text {
-        font-size: .8rem;
-        line-height: 1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
         margin-top: 30px;
 
         span {
             color: $red;
             font-weight: 700;
         }
+    }
+
+    &__link {
+        display: inline-block;
+        padding-top: 20px;
     }
 }
 
