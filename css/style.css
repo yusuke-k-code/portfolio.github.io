@@ -1349,6 +1349,19 @@ footer a {
   }
 }
 
+@media (max-width: 767px) {
+  .study__wrapper .study__link-twitter:active img, .study__wrapper .study__link-codepen:active img {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    left: 2.5vw;
+  }
+  .study__wrapper .study__link-twitter:active p, .study__wrapper .study__link-codepen:active p {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    right: 2.5vw;
+  }
+}
+
 .study__wrapper .study__link-twitter:active, .study__wrapper .study__link-codepen:active {
   -webkit-box-shadow: inset 5px 5px 10px #bebebe,  inset -5px -5px 10px #ececec;
           box-shadow: inset 5px 5px 10px #bebebe,  inset -5px -5px 10px #ececec;
