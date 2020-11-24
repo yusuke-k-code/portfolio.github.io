@@ -120,9 +120,9 @@ footer a {
 
 .subtitle::after {
   /* ---------------------------------------
-  ※ content=""内のタイトル名は各セクションで記述
-  ※ 背景色の異なるセクションの文字色は各セクションで記述
-  --------------------------------------- */
+        ※ content=""内のタイトル名は各セクションで記述
+        ※ 背景色の異なるセクションの文字色は各セクションで記述
+        --------------------------------------- */
   top: -60px;
   font-size: 5rem;
   color: #d5d5d5;
@@ -452,14 +452,14 @@ footer a {
 .fv {
   width: 100vw;
   height: 100vh;
-  z-index: -30;
+  z-index: -20;
   position: relative;
 }
 
 .fv__content {
   width: 100%;
   height: 100%;
-  background: url(https://yusuke-k-code.github.io/portfolio.github.io/fv_img-min2.jpg) no-repeat right bottom/cover;
+  background: url(../img/fv_img-min2.jpg) no-repeat right bottom/cover;
 }
 
 .fv-title {
@@ -828,16 +828,19 @@ footer a {
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 2px;
   padding: 16px;
+  -webkit-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
-}
-
-.skills__item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 .skills__item:nth-child(3n) {
   margin-right: 0;
+}
+
+.skills__item:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
 }
 
 @media (max-width: 1049px) {
@@ -916,23 +919,23 @@ footer a {
 }
 
 .skills__img.html__logo:before {
-  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/html5-brands.svg) no-repeat center/90% 90%;
+  background: #fefefe url(../img/html5-brands.svg) no-repeat center/90% 90%;
 }
 
 .skills__img.css__logo:before {
-  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/css3-alt-brands.svg) no-repeat center/90% 90%;
+  background: #fefefe url(../img/css3-alt-brands.svg) no-repeat center/90% 90%;
 }
 
 .skills__img.js__logo:before {
-  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/js-brands.svg) no-repeat center/90% 90%;
+  background: #fefefe url(../img/js-brands.svg) no-repeat center/90% 90%;
 }
 
 .skills__img.git__logo:before {
-  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/github-square-brands.svg) no-repeat center/90% 90%;
+  background: #fefefe url(../img/github-square-brands.svg) no-repeat center/90% 90%;
 }
 
 .skills__img.xd__logo:before {
-  background: #fefefe url(https://yusuke-k-code.github.io/portfolio.github.io/adobe.svg) no-repeat center/90% 90%;
+  background: #fefefe url(../img/adobe.svg) no-repeat center/90% 90%;
 }
 
 .skills__text-wrapper {
