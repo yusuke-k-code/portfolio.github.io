@@ -1521,11 +1521,26 @@ footer a {
 .schedule__message {
   font-size: .9rem;
   line-height: 2rem;
-  margin-left: 3vw;
+  margin-left: 5px;
 }
 
 .schedule__message:first-of-type {
   margin-top: 20px;
+}
+
+@media (max-width: 1049px) {
+  .schedule__message {
+    font-size: .8rem;
+    line-height: 1.8rem;
+    margin-left: 3vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .schedule__message {
+    font-size: .7rem;
+    line-height: 1.6rem;
+  }
 }
 
 /* ---------------------------------

@@ -1353,11 +1353,22 @@ footer a {
     &__message {
         font-size: .9rem;
         line-height: 2rem;
-        margin-left: 3vw;
+        margin-left: 5px;
         
         &:first-of-type {
             margin-top: 20px;
         } 
+
+        @include mq(tb) {
+            font-size: .8rem;
+            line-height: 1.8rem;
+            margin-left: 3vw;
+        }
+
+        @include mq(sp) {
+            font-size: .7rem;
+            line-height: 1.6rem;
+        }
     }
 }
 
