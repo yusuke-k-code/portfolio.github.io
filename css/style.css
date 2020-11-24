@@ -843,10 +843,10 @@ footer a {
 }
 
 .skills__item:hover {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
-  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 1049px) {
