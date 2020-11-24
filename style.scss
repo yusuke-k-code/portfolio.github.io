@@ -927,6 +927,7 @@ footer a {
         margin-bottom: 42px;
         box-shadow: 0 2px 5px #CCC;
         display: flex;
+        transition: all .5s ease 0s;
     
         &.reverse {
             flex-direction: row-reverse;
@@ -951,6 +952,11 @@ footer a {
             @include mq('sp') {
                 margin-bottom: 0;
             }
+        }
+
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
         }
     }
     
@@ -1089,6 +1095,7 @@ footer a {
                         -4px -4px 9px #ececec;
                         padding: 35px;
             margin-left: 40px;
+            transition: all .4s;
 
             @include mq(tb) {
                 flex-direction: column;
@@ -1156,6 +1163,7 @@ footer a {
                         transform: scale(1.1);
                         left: 1.5vw;
                         top: 1.5vw;
+                        opacity: .6;
 
                         @include mq(tb) {
                             transform: scale(1.05);
@@ -1172,6 +1180,7 @@ footer a {
                         transform: scale(1.1);
                         right: 1.5vw;
                         bottom: 1.5vw;
+                        opacity: .6;
 
                         @include mq(tb) {
                             transform: scale(1.05);
