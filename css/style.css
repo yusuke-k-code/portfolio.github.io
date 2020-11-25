@@ -1348,6 +1348,20 @@ footer a {
   height: 49px;
 }
 
+@media (max-width: 1049px) {
+  .study__wrapper .study__link-twitter:active img, .study__wrapper .study__link-codepen:active img {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 767px) {
+  .study__wrapper .study__link-twitter:active img, .study__wrapper .study__link-codepen:active img {
+    width: 39px;
+    height: 39px;
+  }
+}
+
 .study__wrapper .study__link-twitter:active p, .study__wrapper .study__link-codepen:active p {
   font-size: 1.15rem;
 }
