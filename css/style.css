@@ -1354,7 +1354,7 @@ footer a {
           box-shadow: inset 5px 5px 10px #bebebe,  inset -5px -5px 10px #ececec;
 }
 
-.study__wrapper .study__link-twitter:active a > img, .study__wrapper .study__link-codepen:active a > img {
+.study__wrapper .study__link-twitter:active img, .study__wrapper .study__link-codepen:active img {
   width: 49px;
   height: 49px;
 }
