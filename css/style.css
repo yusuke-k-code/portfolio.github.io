@@ -985,8 +985,8 @@ footer a {
 
 .path__wrapper {
   margin-bottom: 42px;
-  -webkit-box-shadow: 0 2px 5px #CCC;
-          box-shadow: 0 2px 5px #CCC;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1249,8 +1249,8 @@ footer a {
   background: #d5d5d5;
   -webkit-box-shadow: 4px 4px 9px #bebebe,  -4px -4px 9px #ececec;
           box-shadow: 4px 4px 9px #bebebe,  -4px -4px 9px #ececec;
-  -webkit-transition: all .4s;
-  transition: all .4s;
+  -webkit-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
 }
 
 @media (max-width: 1049px) {
