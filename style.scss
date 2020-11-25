@@ -1194,19 +1194,19 @@ footer a {
                     }
                 }
 
-                @include mq(sp) {
-                    &:active {
-                        img {
-                            transform: scale(1.05);
-                            left: 2.5vw;
-                        }
+                // @include mq(sp) {
+                //     &:active {
+                //         img {
+                //             transform: scale(1.05);
+                //             left: 2.5vw;
+                //         }
     
-                        p {
-                            transform: scale(1.05);
-                            right: 2.5vw;
-                        }
-                    }
-                }
+                //         p {
+                //             transform: scale(1.05);
+                //             right: 2.5vw;
+                //         }
+                //     }
+                // }
 
                 &:active {
                     box-shadow: inset 5px 5px 10px #bebebe, 
