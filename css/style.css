@@ -372,7 +372,6 @@ footer a {
 
 @media (max-width: 767px) {
   .toggle-bg {
-    display: block;
     width: 100vw;
     height: 100vh;
     position: fixed;

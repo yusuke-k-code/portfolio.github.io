@@ -411,7 +411,6 @@ footer a {
     display: none;
 
     @include mq(sp) {
-        display: block;
         width: 100vw;
         height: 100vh;
         position: fixed;
