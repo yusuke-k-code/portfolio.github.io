@@ -1170,13 +1170,11 @@ footer a {
 
                 &:hover {
                     img {
-                        transform: scale(1.1);
                         left: 1.5vw;
                         top: 1.5vw;
                         opacity: .6;
 
                         @include mq(tb) {
-                            transform: scale(1.05);
                             top: 2.5vw;
                             left: 2.5vw;
                         }
@@ -1184,18 +1182,11 @@ footer a {
                     }
 
                     p {
-                        transform: scale(1.1);
                         right: 1.5vw;
                         bottom: 1.5vw;
                         opacity: .6;
 
                         @include mq(tb) {
-                            transform: scale(1.05);
-                            right: 2.5vw;
-                        }
-
-                        @include mq(sp) {
-                            transform: scale(1.05);
                             right: 2.5vw;
                         }
                     }
