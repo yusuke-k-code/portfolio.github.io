@@ -1155,11 +1155,24 @@ footer a {
 }
 
 .study .codepen__text {
+  font-size: 1rem;
   text-align: right;
+}
+
+@media (max-width: 767px) {
+  .study .codepen__text {
+    font-size: .9rem;
+  }
 }
 
 .study .codepen__text br {
   display: none;
+}
+
+@media (max-width: 767px) {
+  .study .codepen__text br {
+    display: block;
+  }
 }
 
 .study__wrapper {
@@ -1313,14 +1326,7 @@ footer a {
   .study__wrapper .study__link-twitter:hover img, .study__wrapper .study__link-codepen:hover img {
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
-    left: 2.5vw;
-  }
-}
-
-@media (max-width: 767px) {
-  .study__wrapper .study__link-twitter:hover img, .study__wrapper .study__link-codepen:hover img {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    top: 2.5vw;
     left: 2.5vw;
   }
 }
